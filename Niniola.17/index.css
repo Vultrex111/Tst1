@@ -1,0 +1,39 @@
+.main-body {
+        background-color: aqua;
+        padding: 50px;
+        background-image: url(./demon-slayer-4k-hashira-sbbkjpn3nlemh549.jpeg);
+        position: sticky;
+    }
+.header-one{
+        font-size: 5rem;
+        color: blue;
+    }
+.first_section{
+        display: flex;
+        flex-direction: row;
+    }
+.second_child img{
+    padding: 10px 50px;
+    max-width: 500px;
+    height: 500px;
+    border-radius: 40%;   
+}
+
+.btn1{
+    size: 90px;
+    border-radius: 15px;
+    background:navy;
+    font-size: 20px;
+    color: wheat;
+    padding: 15px 5px;
+    animation: backwards;
+    
+}
+.btn1:hover{
+    size: 10px;
+    border-radius: 15px;
+    background:rgb(193, 215, 27);
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition: step-start;
+}
